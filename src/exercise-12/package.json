@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http-server.js",
+  "scripts": {
+    "start": "node http-server.js --watch"
+  },
+  "author": "Vojtěch Šebek",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "express": "^4.19.2",
+    "lru-cache": "^10.2.0"
+  }
+}
